@@ -1,0 +1,22 @@
+{
+    "name": "parkrun/parkrun-api",
+    "type": "library",
+    "description": "A php library implementing parkrun API.",
+    "keywords": ["parkrun", "php", "wrapper", "api"],
+    "homepage": "https://developer.parkrun.com/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jake Lodge",
+            "email": "jake@jkco.uk"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "classmap": [
+            "parkrunAPI.php"
+        ]
+    }
+}
